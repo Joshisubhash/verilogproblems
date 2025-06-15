@@ -1,7 +1,7 @@
 
 # 📘 Verilog 100 Days – Waveform and Explanation Gallery
 
-This document shows the waveform results and brief explanations of full adder design.
+This document shows the waveform results and brief explanations of ripple carry adder design.
 
 ---
 
