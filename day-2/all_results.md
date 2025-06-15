@@ -21,7 +21,7 @@ This document shows the waveform results and brief explanations of ripple carry 
 ![ripple carry adder Diagram](./images/scematic_ripple_full.png)
 
 **Description:** 
-the full adder scematic with ripple carry adder
+  the full adder scematic for ripple carry adder
 
 
 ### 🔬 Simulation Result
