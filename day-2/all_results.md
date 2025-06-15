@@ -9,7 +9,7 @@ This document shows the waveform results and brief explanations of ripple carry 
 
  
 
-![full adder](./images/schematic_ripple.png)
+![ripple carry adder](./images/scematic_ripple.png)
 
 **Description:**  
   the scematic of 4bit ripple carry adder with each module with full adder
