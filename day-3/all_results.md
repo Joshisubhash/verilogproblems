@@ -1,12 +1,11 @@
 
 # 📘 Verilog 100 Days – Waveform and Explanation Gallery
 
-This document shows the waveform results and brief explanations of ripple carry adder design.
+This document shows the waveform results and brief explanations of carry look ahead adder design.
 
 ---
 
-## ✅ Day 02 - ripple carry adder
-
+## ✅ Day 03 - carry look ahead adder
  
 
 ![carry look ahead adder](./images/cla_schematic.png)
