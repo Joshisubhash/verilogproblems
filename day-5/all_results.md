@@ -30,11 +30,12 @@ This document shows the waveform results and brief explanations of subtractor us
 
 **Description:**  
 simulation results.
-simualtion results of 4-bit subtractor
+simualtion results of addtion of signed and unsigned values , depending on the mode the signed and unsigned are assigned.
+
 
 
 ![Simulation Waveform](./images/signed_sim.png)
 **Description:**  
 simulation results.
-simualtion results of addtion of signed and unsigned values , depending on the mode the signed and unsigned are assigned.
+simualtion results of 4-bit subtractor
 
