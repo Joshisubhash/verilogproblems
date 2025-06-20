@@ -34,3 +34,14 @@ assign {x,y} = {a>b} ? {a,b} : {b,a};
 
 endmodule
 
+// for descending order
+/*
+module sorting_comparator(
+input [3:0]a,b, 
+output [3:0]x,y 
+);
+
+
+assign {x,y} = {a<b} ? {a,b} : {b,a};
+
+endmodule*/
