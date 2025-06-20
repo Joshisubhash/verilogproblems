@@ -32,7 +32,7 @@ simualtion results of  sorting algorithm with output sorted in  descending order
 ### algorithm used
 
 this is the algorithm used in the code 
-Stage 1:  A-B  |  C-D
-Stage 2:  A-C  |  B-D
+Stage 1:  A-B  |  C-D  <br>
+Stage 2:  A-C  |  B-D <br>
 Stage 3:  B-C
 
