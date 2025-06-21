@@ -9,6 +9,8 @@ This document shows the waveform results and brief explanations of  tristate usi
 
  
 ![reference image](./images/referenss_image.png)
+
+
 **Description:**  
 the image is from google and synthesize this design in verilog and simulate it in vivado.
 
