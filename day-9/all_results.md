@@ -8,7 +8,7 @@ This document shows the waveform results and brief explanations of  tristate usi
 ## ✅ Day 09 - tristate using mux for reference image.
 
  
-![reference image](./images/reference_image.png)
+![reference image](./images/referenss_image.png)
 **Description:**  
 the image is from google and synthesize this design in verilog and simulate it in vivado.
 
