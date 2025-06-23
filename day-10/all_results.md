@@ -17,7 +17,7 @@ This document shows the waveform results and brief explanations of  encoder
  
 ### 🔬 Simulation Result
 
-![Simulation Waveform](./images/simulation_ripple.png)
+![Simulation Waveform](./images/encoder_sim.png)
 
 **Description:**  
 simulation results.
