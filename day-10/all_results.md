@@ -1,18 +1,18 @@
 
 # 📘 Verilog 100 Days – Waveform and Explanation Gallery
 
-This document shows the waveform results and brief explanations of  encoder
+This document shows the waveform results and brief explanations of  decoder
 
 ---
 
-## ✅ Day 10 - encoder
+## ✅ Day 10 - decoder
 
  
 
-![ripple carry adder](./images/encoder_schematic.png)
+![dedocder](./images/encoder_schematic.png)
 
 **Description:**  
-  the scematic of  2:4 encoder
+  the scematic of  2:4 decoder
 
  
 ### 🔬 Simulation Result
@@ -21,11 +21,37 @@ This document shows the waveform results and brief explanations of  encoder
 
 **Description:**  
 simulation results.
-simualtion results of encoder.
+simualtion results of decoder.
 
 
-![encoder display message](./images/display.png)
+![decoder display message](./images/display.png)
 
 **Description:**  
 simulation results.
-simualtion results of  encoder in dispaly message.
+simualtion results of   decoder in dispaly message.
+
+##  4:16 decoder using 2:4 decoder
+
+![dedocder](./images/4_16schematic.png)
+
+**Description:**  
+  the scematic of  4:16 decoder  
+
+
+![decoder elabration](./images/4_16schematic_elab.png)
+
+**Description:**  
+  the scematic of 4:16 decoder with 2:4 decoder
+ 
+### 🔬 Simulation Result
+
+![Simulation Waveform](./images/4_16_sim.png)
+
+**Description:**  
+simulation results.
+simualtion results  4:16 decoder using 2:4 decoder
+
+
+
+
+
