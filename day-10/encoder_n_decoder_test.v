@@ -1,8 +1,8 @@
 
-module encoder_test();
+module decoder_test();
 reg [1:0] in;
 wire [3:0] out;
-encoder test (.in(in) , .out(out));
+decoder test (.in(in) , .out(out));
  initial begin 
  
  in = 2'b00;#10;
