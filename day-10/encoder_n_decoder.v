@@ -1,5 +1,5 @@
 
-module encoder(out ,in);
+module decoder(out ,in);
 input wire [1:0]in;
 output reg [3:0]out;
 
