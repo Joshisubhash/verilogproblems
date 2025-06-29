@@ -9,7 +9,7 @@ This document shows the waveform results and brief explanations of mod-10 counte
 
  
 
-![mod-10 counter](./images/mod-10_counter.png)
+![mod-10 counter](./images/counter_schematic.png)
 
 **Description:**  
   the scematic of mod-10 counter
@@ -20,7 +20,7 @@ This document shows the waveform results and brief explanations of mod-10 counte
 
 ### 🔬 Simulation Result
 
-![Simulation Waveform](./images/mod-10_counter_test.png)
+![Simulation Waveform](./images/counter_sim.png)
 
 **Description:**  
 simulation results.
