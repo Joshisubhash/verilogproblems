@@ -9,7 +9,7 @@ This document shows the waveform results and brief explanations of 8 bit adder u
 
  
 
-![mod-10 counter](./images/eight_bit_schematic.png)
+![mod-10 counter](./images/eight_bit_sim.png)
 
 **Description:**  
   the scematic of 8 bit adder using only one 4 bit adder  
@@ -26,7 +26,7 @@ and at second clock cycle the upper bit will add
 
 ### 🔬 Simulation Result
 
-![Simulation Waveform](./images/eight_bit_sim.png)
+![Simulation Waveform](./images/eight_bit_schematic.png)
 
 **Description:**  
 simulation results.
