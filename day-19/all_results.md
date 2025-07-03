@@ -4,7 +4,7 @@
 This document shows the waveform results and brief explanations of moore model with overlapping and non-overlapping
 ---
 
-## ✅ Day 18 - moore model with overlapping and non-overlapping
+## ✅ Day 18 - moore model with overlapping and non-overlapping for sequence 1101
 
  ###non-overlapping
 
