@@ -4,7 +4,7 @@
 This document shows the waveform results and brief explanations of mealy model with overlapping and non-overlapping
 ---
 
-## ✅ Day 18 - mealy model with overlapping and non-overlapping
+## ✅ Day 18 - mealy model with overlapping and non-overlapping for sequnce 1101
 
  ###non-overlapping
 
