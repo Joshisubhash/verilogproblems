@@ -8,7 +8,7 @@ This document shows the waveform results and brief explanations of moore model w
 
  ###non-overlapping
 
-![moore model non-overlapping](./images/non_overlapp_schematic.png)
+![moore model non-overlapping](./images/nonoverlapp_schematic.png)
 
 **Description:**  
   the scematic of  moore model with non-overlapping
@@ -26,7 +26,7 @@ This document shows the waveform results and brief explanations of moore model w
 
 ### non-overlapping simulation
 
-![Simulation Waveform](./images/non_overlapp_sim.png)
+![Simulation Waveform](./images/nonoverlapp_sim.png)
 
 **Description:**  
 simulation results.
