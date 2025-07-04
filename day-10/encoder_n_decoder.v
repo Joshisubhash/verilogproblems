@@ -1,4 +1,4 @@
-
+//behavioral model 
 module decoder(out ,in);
 input wire [1:0]in;
 output reg [3:0]out;
@@ -15,7 +15,7 @@ endmodule
 
 //4:16 decoder using 2:4 decoder
 
-
+//strutural model
 module decoder(out ,in ,e);
 input wire [1:0]in;
 input wire e;
