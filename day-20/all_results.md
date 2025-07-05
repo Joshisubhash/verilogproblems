@@ -4,7 +4,7 @@
 This document shows the waveform results and brief explanations of  parity_checker for number of 1's
 ---
 
-## ✅ Day 18 - parity_checker for one 
+## ✅ Day 20 - parity_checker for one 
 
  
 
