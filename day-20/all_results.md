@@ -17,17 +17,12 @@ This document shows the waveform results and brief explanations of  parity_check
 
 ### 🔬 Simulation Result
 
-### non-overlapping simulation
+ **Description:**  - <br>
+ in this simulation we can see odd number of 1's as input and after done bit the out is one and again goes to zero.
 
 ![Simulation Waveform](./images/parity_sim.png)
 
 **Description:**  
 simulation results.
 simualtion results of parity_checker for one   
-
-### overlapping simulation
-![Simulation Waveform](./images/overlapp_sim.png)
-
-**Description:**  
-simulation results.
-simualtion results of moore model overlapping
+ 
