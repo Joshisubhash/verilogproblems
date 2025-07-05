@@ -8,7 +8,7 @@ This document shows the waveform results and brief explanations of  parity_check
 
  
 
-![moore model non-overlapping](./images/parity_schematic.png)
+![parity_checker](./images/parity_schematic.png)
 
 **Description:**  
   the scematic of parity_checker for one   
