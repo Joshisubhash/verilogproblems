@@ -29,12 +29,13 @@ This document shows the waveform results and brief explanations of  ring counter
 
 **Description:**  
 simulation results - 
-simualtion results of ring counter
+simualtion results of ring counter with structral model
 
 ![Simulation Waveform](./images/ring_behav_sim.png)
 
 **Description:**  
 simulation results - 
-simualtion results of ring counter
+simualtion results of ring counter with behavioral model
+
 
 
