@@ -14,11 +14,13 @@ This document shows the waveform results and brief explanations of   uart_transm
   the scematic of  uart_transmitter
 
 
-![uart_transmitter display message](./images/display.png)
+![uart_transmitter display message](./images/timing.png)
 
 **Description:**  
-simulation results.
-simualtion results of   decoder in dispaly message.
+ here we can see that for buad rate of 9600.
+ for 50MHz frequency 
+ we get 104.66 us for one tick(for one bit to send).
+ 
 
 
  
