@@ -68,7 +68,7 @@ simualtion results of uart with data being written after start.
 
  
 
-![simulation waveform](./images/datawithoutstart.png)
+![simulation waveform](./images/dataafterwithoutstart.png)
 
 //initial begin
 //start=1;
