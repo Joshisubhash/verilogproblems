@@ -1,112 +1,128 @@
 
 # 📘 Verilog 100 Days – Waveform and Explanation Gallery
 
-This document shows the waveform results and brief explanations of   uart_transmitter
+This document shows waveform results and brief explanations for the `uart_transmitter` module.
+
 ---
 
-## ✅ Day 26 - uart_transmitter
+## ✅ Day 26 – UART Transmitter
 
- 
+---
 
-![ uart_transmitter](./images/uart_schematic.png)
+### 📷 Schematic
 
-**Description:**  
-  the scematic of  uart_transmitter
-
-
-![uart_transmitter display message](./images/timing.png)
-
+![uart_transmitter](./images/uart_schematic.png)
 
 **Description:**  
- here we can see that for buad rate of 9600.
- for 50MHz frequency and timescale of 1ns
- we get 104.66 us for one tick(for one bit to send).
- meaning <br>
-tick_period = (1 / 9600) seconds = 104.166 us
-<br>
-clock_period = 1 / 50,000,000 = 20 ns<br>
-ticks_needed = 104.166 µs / 20 ns = 5208 clock cycles<br>
+Schematic representation of the `uart_transmitter` module showing the logic of serial transmission using UART protocol.
 
+---
 
-![uart_transmitter display message](./images/lasttiming.png)
-**Description:**  
- here we can see that for buad rate of 9600.
- for 50MHz frequency and timescale of 1ns
- we get 104.66 us for one tick(for one bit to send).
+### ⏱️ Timing Breakdown
 
- so it becomes ~ 1040(approximatly) us , to send the 10 bit data
-
-### 🔬 Simulation Result
-
-understanding of simulation of uart and wrting of simulation code.
-
-![Simulation Waveform](./images/dataafter.png)
-
-the simlation code there some understanding of the code.
-first when u write teh data after start 
-it will show x after data is triggered , because when start is triggered there is no data to show
-so 
-//initial begin
-//start=1;
-//rst = 1;
-//#10;
-//rst=0;
-//#5;
-//start = 0;#5;
-//data = 8'b10101010;#20;
-////$finish;
-//end
-
-here wrong behavior of uart will shown
+![uart_transmitter_timing](./images/timing.png)
 
 **Description:**  
-simulation results.
-simualtion results of uart with data being written after start.
+To transmit at **9600 baud** using a **50 MHz** clock:
 
+- **tick_period** = `1 / 9600` = `104.166 µs`
+- **clock_period** = `1 / 50,000,000` = `20 ns`
+- **ticks_needed** = `104.166 µs / 20 ns` = **5208 clock cycles**
 
+> So, to send 10 bits (1 start + 8 data + 1 stop), it takes:  
+> `10 * 104.166 µs = ~1041.66 µs`
 
+---
 
- 
-
-![simulation waveform](./images/dataafterwithoutstart.png)
-
-//initial begin
-//start=1;
-//rst = 1;
-//#10;
-//rst=0;
-//#5;
-//start = 0;#5;
-//data = 8'b10101010;#20;
-//(here start should be 1 again or else it is show x because after start #5 there is nothing that drives the start so start becomes x)
-//start =1; 
-////$finish;
-//end
-
-now after data initialze at first and now if we not reinitalized the start bit to 1 after data is transferred that is after 10 bit is transferred it will show x, because as start is reg type now it is not driven by anything so after transfer it will show x.
+![uart_lastbit_timing](./images/lasttiming.png)
 
 **Description:**  
-  the scematic of  uart simulation being written without start bit.
+You can observe that the transmission of all 10 bits completes in **~1040 µs**, which aligns well with the expected baud rate of **9600**.
 
- 
- 
-### 🔬 Simulation Result
+---
 
+## 🔬 Simulation Results
 
+---
+
+### ❌ Incorrect – Data Written *After* Start
+
+![UART Waveform - Data After Start](./images/dataafter.png)
+
+```verilog
+initial begin
+    start = 1;
+    rst = 1;
+    #10 rst = 0;
+    #5 start = 0;
+    #5 data = 8'b10101010; // ❌ Too late!
+end
+```
+
+**Description:**  
+Here, the `start` signal is pulled low **before** the `data` is assigned.  
+As a result, the UART samples incorrect or unknown (`x`) values, producing invalid transmission.
+
+---
+
+### ❌ Incorrect – Start Not Reasserted
+
+![UART Waveform - Start Not Driven](./images/dataafterwithoutstart.png)
+
+```verilog
+initial begin
+    start = 1;
+    rst = 1;
+    #10 rst = 0;
+    #5 start = 0;
+    #5 data = 8'b10101010;
+    #20;
+    // ⚠️ Missing: start = 1; // Line goes undriven after reset
+end
+```
+
+**Description:**  
+After `start = 0`, it’s never set back to `1`.  
+Since `start` is a `reg`, the simulator expects it to be continuously driven.  
+After a while, the line becomes `x` (undefined) and breaks functionality.
+
+---
+
+### ✅ Correct – Data Before Start Pulse
+
+![UART Waveform - Correct Simulation](./images/databefore.png)
+
+```verilog
 initial begin
     rst = 1;
     start = 1;
     data = 8'b10101010;
     #10 rst = 0;
-    #20 start = 0;
-    #2  start = 1; // hold start low for just one cycle
-    #10000; // wait for output to complete
+    #20 start = 0;   // Pulse to trigger UART
+    #2  start = 1;   // Return to idle
+    #10000;
     $finish;
 end
-
-
-![Simulation Waveform](./images/databefore.png)
+```
 
 **Description:**  
-simulation results.
-simualtion results  the correct uart simuation code 
+This is the **correct sequence**:
+- Assign `data` first.
+- Pulse `start` low briefly to trigger the transmission.
+- Return `start` to `1` to idle the line.
+
+> This results in correct 10-bit transmission (start + 8 data + stop) at the desired baud rate.
+
+---
+
+## 📎 Notes
+
+- UART line idle state is logic high (`1`)
+- Start bit is logic low (`0`)
+- Data is LSB first
+- Stop bit is logic high (`1`)
+- `tick` is generated every 5208 clock cycles for 9600 baud with 50 MHz system clock
+
+---
+
+✅ Keep this format consistent for future UART receiver or UART testbench projects in your **100 Days of Verilog** challenge.
