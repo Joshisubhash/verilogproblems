@@ -1,15 +1,15 @@
 
 # 📘 Verilog 100 Days – Waveform and Explanation Gallery
 
-This document shows waveform results and brief explanations for the `uart_transmitter` module.
+This document shows waveform results and brief explanations for the uart_transmitter module.
 
 ---
 
-## ✅ Day 26 – UART Transmitter
+## ✅ Day 26 – uart transmitter
 
 ---
 
-### 📷 Schematic
+### Schematic
 
 ![uart_transmitter](./images/uart_schematic.png)
 
@@ -45,7 +45,7 @@ You can observe that the transmission of all 10 bits completes in **~1040 µs**,
 
 ---
 
-### ❌ Incorrect – Data Written *After* Start
+### Incorrect – Data Written *After* Start
 
 ![UART Waveform - Data After Start](./images/dataafter.png)
 
@@ -55,7 +55,7 @@ initial begin
     rst = 1;
     #10 rst = 0;
     #5 start = 0;
-    #5 data = 8'b10101010; // ❌ Too late!
+    #5 data = 8'b10101010; // Too late!
 end
 ```
 
@@ -65,7 +65,7 @@ As a result, the UART samples incorrect or unknown (`x`) values, producing inval
 
 ---
 
-### ❌ Incorrect – Start Not Reasserted
+###  Incorrect – Start Not Reasserted
 
 ![UART Waveform - Start Not Driven](./images/dataafterwithoutstart.png)
 
@@ -77,7 +77,7 @@ initial begin
     #5 start = 0;
     #5 data = 8'b10101010;
     #20;
-    // ⚠️ Missing: start = 1; // Line goes undriven after reset
+    // Missing: start = 1; // Line goes undriven after reset
 end
 ```
 
@@ -122,7 +122,4 @@ This is the **correct sequence**:
 - Data is LSB first
 - Stop bit is logic high (`1`)
 - `tick` is generated every 5208 clock cycles for 9600 baud with 50 MHz system clock
-
----
-
-✅ Keep this format consistent for future UART receiver or UART testbench projects in your **100 Days of Verilog** challenge.
+ 
