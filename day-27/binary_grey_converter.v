@@ -1,4 +1,4 @@
-
+//binary to grey real time converter
 module b2g(grey,rst,clk);
 
 input wire rst,clk;
@@ -16,13 +16,14 @@ grey <= 0;
 end else begin
 bin <= bin + 1'b1;
 grey <= {bin[3] , bin[3]^bin[2] , bin[2]^bin[1] , bin[1]^bin[0]};
+ // grey <= (bin + 1 ) ^ ((bin + 1) >> 1); //same as above
 end
 
 end
 endmodule
 
 
-
+//grey to binary real time converter
  module g2b(grey_out,rst,clk);
 
 input wire rst,clk;
