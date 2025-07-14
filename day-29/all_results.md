@@ -25,7 +25,7 @@ This document shows the waveform results and brief explanations of flipflops
 
  ###  Structural Description
 
-![jk_flipflop](./images/t_schematic.png)
+![jk_flipflop](./images/t_ff_schematic.png)
 
 **Description:**  
  the schematic of T flipflop
