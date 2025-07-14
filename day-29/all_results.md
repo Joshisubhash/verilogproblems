@@ -18,14 +18,14 @@ This document shows the waveform results and brief explanations of flipflops
 
 ###  Structural Description
 
-![jk_flipflop](./images/jk_schemati.png)
+![jk_flipflop](./images/jk_schematic.png)
 
 **Description:**  
  the schematic of jk flipflop
 
  ###  Structural Description
 
-![jk_flipflop](./images/t_schemati.png)
+![jk_flipflop](./images/t_schematic.png)
 
 **Description:**  
  the schematic of T flipflop
@@ -44,7 +44,7 @@ simulation results of sr_ff
 **Description:**  
 simulation results of jk_ff
 
-![Simulation Waveform](./images/t_sim.png)
+![Simulation Waveform](./images/t_ff_sim.png)
 
 **Description:**  
 simulation results of T_ff
