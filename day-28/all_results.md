@@ -9,7 +9,7 @@ This document shows the waveform results and brief explanations of linear feedba
 
  
 
-![linear feedback shift register (LFSR)](./images/lfsr_schematic.png)
+![linear feedback shift register (LFSR)](./images/lfsr_scematic.png)
 
 **Description:**  
   the scematic of linear feedback shift register (LFSR)
