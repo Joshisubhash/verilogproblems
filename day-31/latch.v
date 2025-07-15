@@ -1,7 +1,7 @@
 
 
 
-
+// sr latch behavioral  modelling
 module latch(q,qb,s,r);
 input wire s,r;
 output reg q;
@@ -26,7 +26,7 @@ end
 endmodule
 
 
-
+//sr latch gate level modelling
 module sr_latch_nand (
    input wire s,  // active-low set
    input wire r,  // active-low reset
@@ -39,18 +39,16 @@ assign qb = ~(r & q);
 
 endmodule
 
+
+//wrong gate level modelling , which causes the combinational loop
 // module latch(q,qb,s,r);
 // input wire s,r;
- 
-// output wire q,qb;
- 
- 
+// output wire q,qb; 
 // assign q = s |~ qb;
 // assign qb = r |~ q;
- 
 // endmodule
 
-
+//D latch behavioral modelling
 module latch(q,qb,e,d);
 input wire d,e;
 output reg q,qb;
@@ -65,7 +63,7 @@ endmodule
 
 
 
-
+//D latch gate level modelling
 module latch(q,qb,e,d);
 
 input wire e,d;
