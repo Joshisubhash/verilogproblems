@@ -1,4 +1,4 @@
-module bcd_counter(out,cout,a,b,cin);
+module bcd_adder(out,cout,a,b,cin);
 
 input wire [3:0]a,b;
 input wire cin;
