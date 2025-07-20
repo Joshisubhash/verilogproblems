@@ -20,8 +20,8 @@ This document shows the waveform results and brief explanations of adder using m
 
 ### 🔬 Simulation Result
  
- ![full adder using mux](./images/adder_using _mux.png)
- ![full adder using mux](./images/adder_using_mux.png)
+ 
+ ![full adder using mux](./images/adderusingmuxsim.png)
 **Description:**  
 simulation results - 
 simualtion results of full adder using mux
