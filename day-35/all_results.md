@@ -7,7 +7,8 @@ This document shows the waveform results and brief explanations of  clock divide
 
 ## ✅ Day 35 - clock divider
 
- 
+ **Description:**  
+We observe that the clock divider produces an output with a 50% duty cycle.
 
 ![clock divider](./images/divider_schematic.png)
 
