@@ -20,7 +20,7 @@ This document shows the waveform results and brief explanations of adder using m
 
 ### 🔬 Simulation Result
 
-![Simulation Waveform](./images/adder_sim.png)
+![Simulation Waveform](./images/adder_using_mux.png)
 
 **Description:**  
 simulation results - 
