@@ -5,7 +5,7 @@ This document shows the waveform results and brief explanations of and gate usin
 
 ---
 
-## ✅ Day 39 – and gate using mux
+## ✅ Day 40 – and gate using mux
 
  
 
