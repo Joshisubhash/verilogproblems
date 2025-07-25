@@ -5,7 +5,7 @@ This document shows the waveform results and brief explanations of or gate using
 
 ---
 
-## ✅ Day 39 – or gate using decoder
+## ✅ Day 41 – or gate using decoder
 
  
 
