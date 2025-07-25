@@ -9,7 +9,7 @@ This document shows the waveform results and brief explanations of or gate using
 
  
 
-![or gate using mux](./images/ormuxschematic.png)
+![or gate using mux](./images/ormux_schematic.png)
 
 **Description:**  
 the schematic of or gate using mux
@@ -20,7 +20,7 @@ the schematic of or gate using mux
 
 ### 🔬 Simulation Result
 
-![Simulation Waveform](./images/ormux_simu.png)
+![Simulation Waveform](./images/ormux_sim.png)
 
 **Description:**  
 simulation results of or gate using mux
