@@ -24,13 +24,13 @@ simualtion results of floating point adder
 
 **Description**
 explaination of code
-# 🧮 Verilog Floating Point Adder (10-bit)
+#  Verilog Floating Point Adder (10-bit)
 
 This project implements a **10-bit Floating Point Adder** in Verilog using a Finite State Machine (FSM). It handles addition and subtraction of two floating-point numbers represented in a custom format with exponent biasing and implicit leading bits.
 
 ---
 
-## 🔧 Floating Point Format
+##  Floating Point Format
 
 | Bit Index | Field     | Width | Description              |
 |-----------|-----------|-------|--------------------------|
@@ -43,7 +43,7 @@ The effective value of a number is:
 
 ---
 
-## ⚙️ FSM Workflow
+##  FSM Workflow
 
 | State | Description |
 |-------|-------------|
