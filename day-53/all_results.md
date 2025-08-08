@@ -10,7 +10,7 @@ This document shows the waveform results and brief explanations of  SIMPLE DIVID
 
  
 
-![SIMPLE DIVIDER](./images/divider_schematic.png)
+![SIMPLE DIVIDER](./images/divider.png)
 
 **Description:**  
  The schematic of SIMPLE DIVIDER
