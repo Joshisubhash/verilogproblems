@@ -11,7 +11,7 @@ This document shows the waveform results and brief explanations of  PWM(PULSE WI
 
  
 
-![PWM(PULSE WIDTH MODULATION)](./images/pwm_schematic.png)
+![PWM(PULSE WIDTH MODULATION)](./images/pwm_scematic.png)
 
 **Description:**  
  The schematic of PWM(PULSE WIDTH MODULATION)
