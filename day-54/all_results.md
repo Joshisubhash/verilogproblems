@@ -22,3 +22,14 @@ This document shows the waveform results and brief explanations of  REGISTER FIL
 
 **Description:**  
 simulation results of  REGISTER FILE
+
+
+**WORKING**
+Initializes memory after reset
+
+Reads two values from memory
+
+Writes their sum into another location
+
+Reads back the sum
+
