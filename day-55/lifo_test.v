@@ -3,7 +3,7 @@ module lifo_test();
 
  reg push,pop;
  reg [7:0]datain;
-// reg w_en,r_en;
+reg w_en,r_en;
  reg rst,clk;
  wire [7:0]out;
  wire full;
