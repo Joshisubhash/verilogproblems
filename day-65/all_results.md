@@ -9,7 +9,7 @@ This document shows the waveform results and brief explanations of MUX TO DEMUX
 
  
 
-![barrel shifter](./images/muuxtodmux_scematic.png)
+![barrel shifter](./images/muuxtodemux_scematic.png)
 
 **Description:**  
   the scematic of MUX TO DEMUX
