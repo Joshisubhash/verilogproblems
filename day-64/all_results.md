@@ -9,7 +9,7 @@ This document shows the waveform results and brief explanations of  DEMUX USING 
 
  
 
-![barrel shifter](./images/demuxusinggates_schematic.png)
+![barrel shifter](./images/demuxusinggates.png)
 
 **Description:**  
   the scematic of DEMUX USING GATES
@@ -18,7 +18,7 @@ This document shows the waveform results and brief explanations of  DEMUX USING 
 
 ### 🔬 Simulation Result
 
-![Simulation Waveform](./images/demuxusinggates_sim.png)
+![Simulation Waveform](./images/demuxusingates_sim.png)
 
 **Description:**  
 simulation results - 
