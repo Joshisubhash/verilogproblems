@@ -18,7 +18,7 @@ This document shows the waveform results and brief explanations of  DEMUX USING 
 
 ### 🔬 Simulation Result
 
-![Simulation Waveform](./images/demuxusingates_sim.png)
+![Simulation Waveform](./images/demuxusingates.png)
 
 **Description:**  
 simulation results - 
