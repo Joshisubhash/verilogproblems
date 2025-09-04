@@ -17,7 +17,7 @@ This document shows the waveform results and brief explanations of  truncated co
 
 ### 🔬 Simulation Result
 
-![Simulation Waveform](./images/trunctedcounter_sim.png)
+![Simulation Waveform](./images/truncatedcounter_sim.png)
 
 **Description:**  
 simulation results - 
