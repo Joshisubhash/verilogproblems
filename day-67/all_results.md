@@ -4,10 +4,10 @@
 This document shows the waveform results and brief explanations of  truncated counter
 ---
 
-## ✅ Day 67 -  truncated counter 
+## ✅ Day 67 -  TRUNCATED COUNTER 
  
 
-![barrel shifter](./images/truncated_schematic.png)
+![truncated counter](./images/truncatedcounter_schematic.png)
 
 **Description:**  
   the scematic of  truncated counter
