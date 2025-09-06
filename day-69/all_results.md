@@ -11,9 +11,9 @@ This document shows the waveform results and brief explanations of  ODD COUNTER
 ![ODD COUNTER](./images/oddcounter_schematic1.png)
 
 **Description:**  
-  the scematic of  ODD COUNTER
-count <= count + 2'd2;
-out <= count;
+  the scematic of  ODD COUNTER<br>
+count <= count + 2'd2;<br>
+out <= count;<br>
 
 
 
@@ -21,10 +21,10 @@ out <= count;
 
 **Description:**  
 simulation results.
-simualtion results of  ODD COUNTER
-if(count[0] == 1)begin
-out <= count;
-end
+simualtion results of  ODD COUNTER<br>
+if(count[0] == 1)begin<br>
+out <= count;<br>
+end<br>
 
 
  
