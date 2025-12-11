@@ -2,7 +2,7 @@
 
 # 📘 Verilog 100 Days – Waveform and Explanation Gallery
 
-This document shows the waveform results and brief explanations of EVEN COUNTER
+This document shows the waveform results and brief explanations of barrel shifter checking with test bench to check dut
 
 ---
 
