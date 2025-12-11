@@ -11,7 +11,7 @@ This document shows the waveform results and brief explanations of barrel shifte
 
 
 
-![barrel shifter](./images/tb_barrel_cematic.png)
+![barrel shifter](./images/tb_barrrel_cematic.png)
 
  
 
