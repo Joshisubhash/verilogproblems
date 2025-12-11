@@ -31,7 +31,7 @@ Mismatch detected at time 5<br>
                   75	1	0	1		1<br>
                   76	0	0	1		1<br>
                   85	0	0	0		0<br>
-$finish called at time : 96 ns : File "C:/Users/subha/day_2/day_2.srcs/sim_1/new/day2_test.v" Line 1010<br>
+ 
 
  
 ### 🔬 Simulation Result
