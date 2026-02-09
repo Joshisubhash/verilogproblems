@@ -3,13 +3,13 @@
 
 # 📘 Verilog 100 Days – Waveform and Explanation Gallery
 
-This document shows the waveform results and brief explanations of d_ff checking with test bench to check dut
+This document shows the waveform results and brief explanations of mod_10counter_tbfunction
 
 ---
 
-## ✅ Day 70 - d_ff checking with test bench to check dut
+## ✅ Day 70 - mod_10counter_tbfunction
 
-![D_ff](./images/tb_d_scematic.png)
+![D_ff](./images/day74_schematic.png)
  
 
 **Description:**  
@@ -102,8 +102,8 @@ This document shows the waveform results and brief explanations of d_ff checking
  
 ### 🔬 Simulation Result
 
-![Simulation Waveform](./images/tb_d_sim.png)
+![Simulation Waveform](./images/day74_simulation.png)
 
 **Description:**  
 simulation results.
-simualtion results of EVEN COUNTER
+simualtion results of mod_10counter_tbfunction
