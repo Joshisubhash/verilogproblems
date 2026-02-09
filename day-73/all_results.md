@@ -7,7 +7,7 @@ This document shows the waveform results and brief explanations of mod_10counter
 
 ---
 
-## ✅ Day 70 - mod_10counter_tbfunction
+## ✅ Day 73 - mod_10counter_tbfunction
 
 ![mod_10counter_tbfunction](./images/day73_schematic.png)
  
