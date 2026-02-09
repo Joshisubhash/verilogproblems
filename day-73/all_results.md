@@ -102,7 +102,7 @@ This document shows the waveform results and brief explanations of mod_10counter
  
 ### 🔬 Simulation Result
 
-![Simulation Waveform](./images/day74_simulation.png)
+![Simulation Waveform](./images/day74_sim.png)
 
 **Description:**  
 simulation results.
