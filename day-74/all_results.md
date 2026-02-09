@@ -6,7 +6,7 @@ This document shows the waveform results and brief explanations of threestatefsm
 
 ---
 
-## ✅ Day 70 - threestatefsm
+## ✅ Day 74 - threestatefsm
 
 ![threestatefsm](./images/day74_schematic.png)
  
